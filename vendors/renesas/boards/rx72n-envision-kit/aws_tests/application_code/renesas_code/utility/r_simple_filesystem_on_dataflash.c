@@ -43,7 +43,7 @@
 
 #define MAX_CHECK_DATAFLASH_AREA_RETRY_COUNT 3
 
-#if defined (BSP_MCU_RX65N)
+#if defined (BSP_MCU_RX65N) || defined (BSP_MCU_RX72N)
 #if SFD_CONTROL_BLOCK_SIZE == 1024
 #define SFD_CONTROL_BLOCK_INITIAL_DATA \
     {\

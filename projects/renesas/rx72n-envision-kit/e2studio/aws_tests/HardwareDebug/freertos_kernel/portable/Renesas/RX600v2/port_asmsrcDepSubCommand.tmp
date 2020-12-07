@@ -1,0 +1,12 @@
+-MM
+-MP
+-MF="freertos_kernel\portable\Renesas\RX600v2\port_asm.d"
+-MT="freertos_kernel\portable\Renesas\RX600v2\port_asm.obj"
+-MT="freertos_kernel\portable\Renesas\RX600v2\port_asm.d"
+-isa=rxv3
+-fpu
+-dpfpu
+-utf8
+-bank
+-debug
+-nologo 

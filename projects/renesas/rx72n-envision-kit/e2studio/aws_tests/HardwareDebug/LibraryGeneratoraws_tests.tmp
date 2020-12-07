@@ -1,0 +1,7 @@
+-isa=rxv3
+-fpu
+-dpfpu
+-lang=c99
+-head=runtime,math,mathf,stdarg,stdio,stdlib,string,new
+-output="aws_tests.lib"
+-nologo

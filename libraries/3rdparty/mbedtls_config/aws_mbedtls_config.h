@@ -9,13 +9,7 @@
  */
 /*
  *  Copyright (C) 2006-2018, ARM Limited, All Rights Reserved
- *  SPDX-License-Identifier: Apache-2.0 OR GPL-2.0-or-later
- *
- *  This file is provided under the Apache License 2.0, or the
- *  GNU General Public License v2.0 or later.
- *
- *  **********
- *  Apache License 2.0:
+ *  SPDX-License-Identifier: Apache-2.0
  *
  *  Licensed under the Apache License, Version 2.0 (the "License"); you may
  *  not use this file except in compliance with the License.
@@ -29,28 +23,7 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  *
- *  **********
- *
- *  **********
- *  GNU General Public License v2.0 or later:
- *
- *  This program is free software; you can redistribute it and/or modify
- *  it under the terms of the GNU General Public License as published by
- *  the Free Software Foundation; either version 2 of the License, or
- *  (at your option) any later version.
- *
- *  This program is distributed in the hope that it will be useful,
- *  but WITHOUT ANY WARRANTY; without even the implied warranty of
- *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *  GNU General Public License for more details.
- *
- *  You should have received a copy of the GNU General Public License along
- *  with this program; if not, write to the Free Software Foundation, Inc.,
- *  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
- *
- *  **********
- *
- *  This repository uses Mbed TLS under Apache 2.0
+ *  This file is part of mbed TLS (https://tls.mbed.org)
  */
 
 #ifndef MBEDTLS_CONFIG_H
@@ -183,20 +156,6 @@
 //#define MBEDTLS_HAVE_TIME_DATE
 
 /**
- * \def MBEDTLS_CHECK_PARAMS_ASSERT
- *
- * Allow MBEDTLS_PARAM_FAILED() to call `assert`, and make it default to
- * `assert`. This macro is only used if #MBEDTLS_CHECK_PARAMS is defined.
- *
- * If this macro is not defined, then MBEDTLS_PARAM_FAILED() defaults to
- * calling a function mbedtls_param_failed(). See the documentation of
- * #MBEDTLS_CHECK_PARAMS for details.
- *
- * Uncomment to allow MBEDTLS_PARAM_FAILED() to call `assert`.
- */
-//#define MBEDTLS_CHECK_PARAMS_ASSERT
-
-/**
  * \def MBEDTLS_PLATFORM_MEMORY
  *
  * Enable the memory allocation layer.
@@ -219,16 +178,6 @@
  * Enable this layer to allow use of alternative memory allocators.
  */
 #define MBEDTLS_PLATFORM_MEMORY
-
-#ifdef CONFIG_MEDTLS_USE_AFR_MEMORY
-    #include <stddef.h>
-
-    extern void * pvCalloc( size_t xNumElements,
-                          size_t xSize ) ;
-    extern void vPortFree( void *pv );
-    #define MBEDTLS_PLATFORM_CALLOC_MACRO pvCalloc
-    #define MBEDTLS_PLATFORM_FREE_MACRO   vPortFree
-#endif
 
 /**
  * \def MBEDTLS_PLATFORM_NO_STD_FUNCTIONS
@@ -690,33 +639,6 @@
  */
 //#define MBEDTLS_CIPHER_NULL_CIPHER
 
-/** \def MBEDTLS_CTR_DRBG_USE_128_BIT_KEY
- *
- * Uncomment this macro to use a 128-bit key in the CTR_DRBG module.
- * By default, CTR_DRBG uses a 256-bit key.
- */
-//#define MBEDTLS_CTR_DRBG_USE_128_BIT_KE
-
-/**
- * \def MBEDTLS_REMOVE_3DES_CIPHERSUITES
- *
- * Remove 3DES ciphersuites by default in SSL / TLS.
- * This flag removes the ciphersuites based on 3DES from the default list as
- * returned by mbedtls_ssl_list_ciphersuites(). However, it is still possible
- * to enable (some of) them with mbedtls_ssl_conf_ciphersuites() by including
- * them explicitly.
- *
- * A man-in-the-browser attacker can recover authentication tokens sent through
- * a TLS connection using a 3DES based cipher suite (see "On the Practical
- * (In-)Security of 64-bit Block Ciphers" by Karthikeyan Bhargavan and Gaëtan
- * Leurent, see https://sweet32.info/SWEET32_CCS16.pdf). If this attack falls
- * in your threat model or you are unsure, then you should keep this option
- * enabled to remove 3DES based cipher suites.
- *
- * Comment this macro to keep 3DES in the default ciphersuite list.
- */
-#define MBEDTLS_REMOVE_3DES_CIPHERSUITES
-
 /**
  * \def MBEDTLS_CIPHER_PADDING_PKCS7
  *
@@ -796,28 +718,6 @@
  * Comment this macro to disable NIST curves optimisation.
  */
 #define MBEDTLS_ECP_NIST_OPTIM
-
-/**
- * \def MBEDTLS_ECP_NO_INTERNAL_RNG
- *
- * When this option is disabled, mbedtls_ecp_mul() will make use of an
- * internal RNG when called with a NULL \c f_rng argument, in order to protect
- * against some side-channel attacks.
- *
- * This protection introduces a dependency of the ECP module on one of the
- * DRBG or SHA modules (HMAC-DRBG, CTR-DRBG, SHA-512 or SHA-256.) For very
- * constrained applications that don't require this protection (for example,
- * because you're only doing signature verification, so not manipulating any
- * secret, or because local/physical side-channel attacks are outside your
- * threat model), it might be desirable to get rid of that dependency.
- *
- * \warning Enabling this option makes some uses of ECP vulnerable to some
- * side-channel attacks. Only enable it if you know that's not a problem for
- * your use case.
- *
- * Uncomment this macro to disable some counter-measures in ECP.
- */
-//#define MBEDTLS_ECP_NO_INTERNAL_RNG
 
 /**
  * \def MBEDTLS_ECP_RESTARTABLE
@@ -1317,7 +1217,7 @@
  *
  * Enable the checkup functions (*_self_test).
  */
-//#define MBEDTLS_SELF_TEST
+#define MBEDTLS_SELF_TEST
 
 /**
  * \def MBEDTLS_SHA256_SMALLER
@@ -1735,7 +1635,7 @@
  *
  * Comment this to disable run-time checking and save ROM space
  */
-//#define MBEDTLS_VERSION_FEATURES
+#define MBEDTLS_VERSION_FEATURES
 
 /**
  * \def MBEDTLS_X509_ALLOW_EXTENSIONS_NON_V3
@@ -2948,7 +2848,7 @@
  *
  * This module provides run-time version information.
  */
-//#define MBEDTLS_VERSION_C
+#define MBEDTLS_VERSION_C
 
 /**
  * \def MBEDTLS_X509_USE_C
@@ -3087,6 +2987,7 @@
 //#define MBEDTLS_CTR_DRBG_MAX_INPUT                256 /**< Maximum number of additional input bytes */
 //#define MBEDTLS_CTR_DRBG_MAX_REQUEST             1024 /**< Maximum number of requested bytes per call */
 //#define MBEDTLS_CTR_DRBG_MAX_SEED_INPUT           384 /**< Maximum size of (re)seed buffer */
+//#define MBEDTLS_CTR_DRBG_USE_128_BIT_KEY              /**< Use 128-bit key for CTR_DRBG - may reduce security (see ctr_drbg.h) */
 
 /* HMAC_DRBG options */
 //#define MBEDTLS_HMAC_DRBG_RESEED_INTERVAL   10000 /**< Interval before reseed is performed by default */
@@ -3367,7 +3268,6 @@
 #include MBEDTLS_USER_CONFIG_FILE
 #endif
 
-#include "mbedtls/check_config.h"
+#include "check_config.h"
 
 #endif /* MBEDTLS_CONFIG_H */
- 

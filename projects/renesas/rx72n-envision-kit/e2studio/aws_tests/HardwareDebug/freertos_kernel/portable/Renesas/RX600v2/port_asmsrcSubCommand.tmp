@@ -1,0 +1,7 @@
+-isa=rxv3
+-fpu
+-dpfpu
+-utf8
+-bank
+-debug
+-nologo 

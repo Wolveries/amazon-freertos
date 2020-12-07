@@ -189,7 +189,7 @@ typedef struct _update_data_flash_control_block {
 	uint32_t status;
 }UPDATA_DATA_FLASH_CONTROL_BLOCK;
 
-//extern xSemaphoreHandle xSemaphoreFlashAccess;
+extern xSemaphoreHandle xSemaphoreFlashAccess;
 
 /******************************************************************************
  Private global variables
@@ -349,26 +349,26 @@ CK_OBJECT_HANDLE PKCS11_PAL_SaveObject( CK_ATTRIBUTE_PTR pxLabel,
 
         /* update data from ram to storage */
         data_flash_update_status_initialize();
-        //xSemaphoreTake(xSemaphoreFlashAccess, portMAX_DELAY);
+        xSemaphoreTake(xSemaphoreFlashAccess, portMAX_DELAY);
         while ( update_data_flash_control_block.status < DATA_FLASH_UPDATE_STATE_FINALIZE_COMPLETED )
         {
             update_dataflash_data_from_image();
             vTaskDelay(1);
         }
-        //xSemaphoreGive(xSemaphoreFlashAccess);
+        xSemaphoreGive(xSemaphoreFlashAccess);
         if (update_data_flash_control_block.status == DATA_FLASH_UPDATE_STATE_ERROR)
         {
             PKCS11_PAL_DEBUG_PRINT(("ERROR: Update data flash data from image\r\n"));
             while(1);
         }
         data_flash_update_status_initialize();
-        //xSemaphoreTake(xSemaphoreFlashAccess, portMAX_DELAY);
+        xSemaphoreTake(xSemaphoreFlashAccess, portMAX_DELAY);
         while ( update_data_flash_control_block.status < DATA_FLASH_UPDATE_STATE_FINALIZE_COMPLETED )
         {
             update_dataflash_data_mirror_from_image();
             vTaskDelay(1);
         }
-        //xSemaphoreGive(xSemaphoreFlashAccess);
+        xSemaphoreGive(xSemaphoreFlashAccess);
         if (update_data_flash_control_block.status == DATA_FLASH_UPDATE_STATE_ERROR)
         {
             PKCS11_PAL_DEBUG_PRINT(("ERROR: Update data flash data mirror from image\r\n"));
@@ -672,12 +672,12 @@ static void check_dataflash_area(uint32_t retry_counter)
             memcpy(&pkcs_control_block_data_image, (void *)&pkcs_control_block_data, sizeof(pkcs_control_block_data));
 
             data_flash_update_status_initialize();
-            //xSemaphoreTake(xSemaphoreFlashAccess, portMAX_DELAY);
+            xSemaphoreTake(xSemaphoreFlashAccess, portMAX_DELAY);
             while ( update_data_flash_control_block.status < DATA_FLASH_UPDATE_STATE_FINALIZE_COMPLETED )
             {
                 update_dataflash_data_mirror_from_image();
             }
-            //xSemaphoreGive(xSemaphoreFlashAccess);
+            xSemaphoreGive(xSemaphoreFlashAccess);
             if (update_data_flash_control_block.status == DATA_FLASH_UPDATE_STATE_ERROR)
             {
                 PKCS11_PAL_DEBUG_PRINT(("ERROR: Update data flash data mirror from image\r\n"));
