@@ -13,7 +13,7 @@ C_DEPS += \
 vendors/renesas/boards/rx72n-envision-kit/ports/pkcs11/core_pkcs11_pal.d 
 
 # Each subdirectory must supply rules for building sources it contributes
-vendors/renesas/boards/rx72n-envision-kit/ports/pkcs11/core_pkcs11_pal.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/vendors/renesas/boards/rx72n-envision-kit/ports/pkcs11/core_pkcs11_pal.c 
+vendors/renesas/boards/rx72n-envision-kit/ports/pkcs11/core_pkcs11_pal.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/vendors/renesas/boards/rx72n-envision-kit/ports/pkcs11/core_pkcs11_pal.c vendors/renesas/boards/rx72n-envision-kit/ports/pkcs11/core_pkcs11_pal.sub
 	@echo 'Scanning and building file: $<'
 	@echo 'Invoking: Scanner and Compiler'
 	@echo vendors\renesas\boards\rx72n-envision-kit\ports\pkcs11\core_pkcs11_palcDepSubCommand.tmp=

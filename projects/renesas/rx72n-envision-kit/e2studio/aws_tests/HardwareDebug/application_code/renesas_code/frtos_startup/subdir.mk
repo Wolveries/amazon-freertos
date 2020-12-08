@@ -13,7 +13,7 @@ C_DEPS += \
 application_code/renesas_code/frtos_startup/freertos_object_init.d 
 
 # Each subdirectory must supply rules for building sources it contributes
-application_code/renesas_code/frtos_startup/freertos_object_init.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/vendors/renesas/boards/rx72n-envision-kit/aws_tests/application_code/renesas_code/frtos_startup/freertos_object_init.c 
+application_code/renesas_code/frtos_startup/freertos_object_init.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/vendors/renesas/boards/rx72n-envision-kit/aws_tests/application_code/renesas_code/frtos_startup/freertos_object_init.c application_code/renesas_code/frtos_startup/freertos_object_init.sub
 	@echo 'Scanning and building file: $<'
 	@echo 'Invoking: Scanner and Compiler'
 	@echo application_code\renesas_code\frtos_startup\freertos_object_initcDepSubCommand.tmp=

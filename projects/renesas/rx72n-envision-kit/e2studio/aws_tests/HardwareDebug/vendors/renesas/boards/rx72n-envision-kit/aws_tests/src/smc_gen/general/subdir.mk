@@ -22,7 +22,7 @@ vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/general/r_smc_cg
 vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/general/r_smc_interrupt.d 
 
 # Each subdirectory must supply rules for building sources it contributes
-vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/general/r_cg_hardware_setup.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/general/r_cg_hardware_setup.c 
+vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/general/r_cg_hardware_setup.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/general/r_cg_hardware_setup.c vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/general/r_cg_hardware_setup.sub
 	@echo 'Scanning and building file: $<'
 	@echo 'Invoking: Scanner and Compiler'
 	@echo vendors\renesas\boards\rx72n-envision-kit\aws_tests\src\smc_gen\general\r_cg_hardware_setupcDepSubCommand.tmp=
@@ -34,7 +34,7 @@ vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/general/r_cg_har
 	@echo 'Finished Scanning and building: $<'
 	@echo.
 
-vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/general/r_smc_cgc.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/general/r_smc_cgc.c 
+vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/general/r_smc_cgc.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/general/r_smc_cgc.c vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/general/r_smc_cgc.sub
 	@echo 'Scanning and building file: $<'
 	@echo 'Invoking: Scanner and Compiler'
 	@echo vendors\renesas\boards\rx72n-envision-kit\aws_tests\src\smc_gen\general\r_smc_cgccDepSubCommand.tmp=
@@ -46,7 +46,7 @@ vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/general/r_smc_cg
 	@echo 'Finished Scanning and building: $<'
 	@echo.
 
-vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/general/r_smc_cgc_user.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/general/r_smc_cgc_user.c 
+vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/general/r_smc_cgc_user.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/general/r_smc_cgc_user.c vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/general/r_smc_cgc_user.sub
 	@echo 'Scanning and building file: $<'
 	@echo 'Invoking: Scanner and Compiler'
 	@echo vendors\renesas\boards\rx72n-envision-kit\aws_tests\src\smc_gen\general\r_smc_cgc_usercDepSubCommand.tmp=
@@ -58,7 +58,7 @@ vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/general/r_smc_cg
 	@echo 'Finished Scanning and building: $<'
 	@echo.
 
-vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/general/r_smc_interrupt.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/general/r_smc_interrupt.c 
+vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/general/r_smc_interrupt.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/general/r_smc_interrupt.c vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/general/r_smc_interrupt.sub
 	@echo 'Scanning and building file: $<'
 	@echo 'Invoking: Scanner and Compiler'
 	@echo vendors\renesas\boards\rx72n-envision-kit\aws_tests\src\smc_gen\general\r_smc_interruptcDepSubCommand.tmp=

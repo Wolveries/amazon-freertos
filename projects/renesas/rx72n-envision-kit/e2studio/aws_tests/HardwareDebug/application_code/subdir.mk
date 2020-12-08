@@ -13,7 +13,7 @@ C_DEPS += \
 application_code/main.d 
 
 # Each subdirectory must supply rules for building sources it contributes
-application_code/main.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/vendors/renesas/boards/rx72n-envision-kit/aws_tests/application_code/main.c 
+application_code/main.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/vendors/renesas/boards/rx72n-envision-kit/aws_tests/application_code/main.c application_code/main.sub
 	@echo 'Scanning and building file: $<'
 	@echo 'Invoking: Scanner and Compiler'
 	@echo application_code\maincDepSubCommand.tmp=

@@ -13,7 +13,7 @@ C_DEPS += \
 vendors/renesas/amazon_freertos_common/network_support/onchip_rx_ether/freertos_ip_hook.d 
 
 # Each subdirectory must supply rules for building sources it contributes
-vendors/renesas/amazon_freertos_common/network_support/onchip_rx_ether/freertos_ip_hook.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/vendors/renesas/amazon_freertos_common/network_support/onchip_rx_ether/freertos_ip_hook.c 
+vendors/renesas/amazon_freertos_common/network_support/onchip_rx_ether/freertos_ip_hook.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/vendors/renesas/amazon_freertos_common/network_support/onchip_rx_ether/freertos_ip_hook.c vendors/renesas/amazon_freertos_common/network_support/onchip_rx_ether/freertos_ip_hook.sub
 	@echo 'Scanning and building file: $<'
 	@echo 'Invoking: Scanner and Compiler'
 	@echo vendors\renesas\amazon_freertos_common\network_support\onchip_rx_ether\freertos_ip_hookcDepSubCommand.tmp=

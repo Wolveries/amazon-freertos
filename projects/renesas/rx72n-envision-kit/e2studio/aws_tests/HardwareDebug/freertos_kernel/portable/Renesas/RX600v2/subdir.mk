@@ -22,7 +22,7 @@ C_DEPS += \
 freertos_kernel/portable/Renesas/RX600v2/port.d 
 
 # Each subdirectory must supply rules for building sources it contributes
-freertos_kernel/portable/Renesas/RX600v2/port.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/freertos_kernel/portable/Renesas/RX600v2/port.c 
+freertos_kernel/portable/Renesas/RX600v2/port.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/freertos_kernel/portable/Renesas/RX600v2/port.c freertos_kernel/portable/Renesas/RX600v2/port.sub
 	@echo 'Scanning and building file: $<'
 	@echo 'Invoking: Scanner and Compiler'
 	@echo freertos_kernel\portable\Renesas\RX600v2\portcDepSubCommand.tmp=

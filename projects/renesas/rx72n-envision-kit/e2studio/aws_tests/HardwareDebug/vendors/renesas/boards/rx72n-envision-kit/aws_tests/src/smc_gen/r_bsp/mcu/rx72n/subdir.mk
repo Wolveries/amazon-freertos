@@ -25,7 +25,7 @@ vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_bsp/mcu/rx72n/
 vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_bsp/mcu/rx72n/vecttbl.d 
 
 # Each subdirectory must supply rules for building sources it contributes
-vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_bsp/mcu/rx72n/mcu_clocks.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_bsp/mcu/rx72n/mcu_clocks.c 
+vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_bsp/mcu/rx72n/mcu_clocks.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_bsp/mcu/rx72n/mcu_clocks.c vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_bsp/mcu/rx72n/mcu_clocks.sub
 	@echo 'Scanning and building file: $<'
 	@echo 'Invoking: Scanner and Compiler'
 	@echo vendors\renesas\boards\rx72n-envision-kit\aws_tests\src\smc_gen\r_bsp\mcu\rx72n\mcu_clockscDepSubCommand.tmp=
@@ -37,7 +37,7 @@ vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_bsp/mcu/rx72n/
 	@echo 'Finished Scanning and building: $<'
 	@echo.
 
-vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_bsp/mcu/rx72n/mcu_init.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_bsp/mcu/rx72n/mcu_init.c 
+vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_bsp/mcu/rx72n/mcu_init.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_bsp/mcu/rx72n/mcu_init.c vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_bsp/mcu/rx72n/mcu_init.sub
 	@echo 'Scanning and building file: $<'
 	@echo 'Invoking: Scanner and Compiler'
 	@echo vendors\renesas\boards\rx72n-envision-kit\aws_tests\src\smc_gen\r_bsp\mcu\rx72n\mcu_initcDepSubCommand.tmp=
@@ -49,7 +49,7 @@ vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_bsp/mcu/rx72n/
 	@echo 'Finished Scanning and building: $<'
 	@echo.
 
-vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_bsp/mcu/rx72n/mcu_interrupts.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_bsp/mcu/rx72n/mcu_interrupts.c 
+vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_bsp/mcu/rx72n/mcu_interrupts.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_bsp/mcu/rx72n/mcu_interrupts.c vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_bsp/mcu/rx72n/mcu_interrupts.sub
 	@echo 'Scanning and building file: $<'
 	@echo 'Invoking: Scanner and Compiler'
 	@echo vendors\renesas\boards\rx72n-envision-kit\aws_tests\src\smc_gen\r_bsp\mcu\rx72n\mcu_interruptscDepSubCommand.tmp=
@@ -61,7 +61,7 @@ vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_bsp/mcu/rx72n/
 	@echo 'Finished Scanning and building: $<'
 	@echo.
 
-vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_bsp/mcu/rx72n/mcu_mapped_interrupts.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_bsp/mcu/rx72n/mcu_mapped_interrupts.c 
+vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_bsp/mcu/rx72n/mcu_mapped_interrupts.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_bsp/mcu/rx72n/mcu_mapped_interrupts.c vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_bsp/mcu/rx72n/mcu_mapped_interrupts.sub
 	@echo 'Scanning and building file: $<'
 	@echo 'Invoking: Scanner and Compiler'
 	@echo vendors\renesas\boards\rx72n-envision-kit\aws_tests\src\smc_gen\r_bsp\mcu\rx72n\mcu_mapped_interruptscDepSubCommand.tmp=
@@ -73,7 +73,7 @@ vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_bsp/mcu/rx72n/
 	@echo 'Finished Scanning and building: $<'
 	@echo.
 
-vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_bsp/mcu/rx72n/vecttbl.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_bsp/mcu/rx72n/vecttbl.c 
+vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_bsp/mcu/rx72n/vecttbl.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_bsp/mcu/rx72n/vecttbl.c vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_bsp/mcu/rx72n/vecttbl.sub
 	@echo 'Scanning and building file: $<'
 	@echo 'Invoking: Scanner and Compiler'
 	@echo vendors\renesas\boards\rx72n-envision-kit\aws_tests\src\smc_gen\r_bsp\mcu\rx72n\vecttblcDepSubCommand.tmp=

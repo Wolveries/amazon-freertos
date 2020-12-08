@@ -13,7 +13,7 @@ C_DEPS += \
 vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_flash_rx/src/flash_type_3/r_flash_type3.d 
 
 # Each subdirectory must supply rules for building sources it contributes
-vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_flash_rx/src/flash_type_3/r_flash_type3.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_flash_rx/src/flash_type_3/r_flash_type3.c 
+vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_flash_rx/src/flash_type_3/r_flash_type3.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_flash_rx/src/flash_type_3/r_flash_type3.c vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_flash_rx/src/flash_type_3/r_flash_type3.sub
 	@echo 'Scanning and building file: $<'
 	@echo 'Invoking: Scanner and Compiler'
 	@echo vendors\renesas\boards\rx72n-envision-kit\aws_tests\src\smc_gen\r_flash_rx\src\flash_type_3\r_flash_type3cDepSubCommand.tmp=

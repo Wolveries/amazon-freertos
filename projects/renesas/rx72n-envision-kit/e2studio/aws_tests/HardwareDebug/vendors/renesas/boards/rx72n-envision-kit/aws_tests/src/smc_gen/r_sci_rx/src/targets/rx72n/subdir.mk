@@ -16,7 +16,7 @@ vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_sci_rx/src/tar
 vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_sci_rx/src/targets/rx72n/r_sci_rx72n_data.d 
 
 # Each subdirectory must supply rules for building sources it contributes
-vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_sci_rx/src/targets/rx72n/r_sci_rx72n.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_sci_rx/src/targets/rx72n/r_sci_rx72n.c 
+vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_sci_rx/src/targets/rx72n/r_sci_rx72n.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_sci_rx/src/targets/rx72n/r_sci_rx72n.c vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_sci_rx/src/targets/rx72n/r_sci_rx72n.sub
 	@echo 'Scanning and building file: $<'
 	@echo 'Invoking: Scanner and Compiler'
 	@echo vendors\renesas\boards\rx72n-envision-kit\aws_tests\src\smc_gen\r_sci_rx\src\targets\rx72n\r_sci_rx72ncDepSubCommand.tmp=
@@ -28,7 +28,7 @@ vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_sci_rx/src/tar
 	@echo 'Finished Scanning and building: $<'
 	@echo.
 
-vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_sci_rx/src/targets/rx72n/r_sci_rx72n_data.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_sci_rx/src/targets/rx72n/r_sci_rx72n_data.c 
+vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_sci_rx/src/targets/rx72n/r_sci_rx72n_data.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_sci_rx/src/targets/rx72n/r_sci_rx72n_data.c vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_sci_rx/src/targets/rx72n/r_sci_rx72n_data.sub
 	@echo 'Scanning and building file: $<'
 	@echo 'Invoking: Scanner and Compiler'
 	@echo vendors\renesas\boards\rx72n-envision-kit\aws_tests\src\smc_gen\r_sci_rx\src\targets\rx72n\r_sci_rx72n_datacDepSubCommand.tmp=

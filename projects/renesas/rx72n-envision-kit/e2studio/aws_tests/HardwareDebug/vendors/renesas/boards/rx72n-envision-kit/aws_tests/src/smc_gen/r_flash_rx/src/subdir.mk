@@ -19,7 +19,7 @@ vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_flash_rx/src/r
 vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_flash_rx/src/r_flash_rx.d 
 
 # Each subdirectory must supply rules for building sources it contributes
-vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_flash_rx/src/r_flash_fcu.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_flash_rx/src/r_flash_fcu.c 
+vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_flash_rx/src/r_flash_fcu.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_flash_rx/src/r_flash_fcu.c vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_flash_rx/src/r_flash_fcu.sub
 	@echo 'Scanning and building file: $<'
 	@echo 'Invoking: Scanner and Compiler'
 	@echo vendors\renesas\boards\rx72n-envision-kit\aws_tests\src\smc_gen\r_flash_rx\src\r_flash_fcucDepSubCommand.tmp=
@@ -31,7 +31,7 @@ vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_flash_rx/src/r
 	@echo 'Finished Scanning and building: $<'
 	@echo.
 
-vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_flash_rx/src/r_flash_group.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_flash_rx/src/r_flash_group.c 
+vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_flash_rx/src/r_flash_group.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_flash_rx/src/r_flash_group.c vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_flash_rx/src/r_flash_group.sub
 	@echo 'Scanning and building file: $<'
 	@echo 'Invoking: Scanner and Compiler'
 	@echo vendors\renesas\boards\rx72n-envision-kit\aws_tests\src\smc_gen\r_flash_rx\src\r_flash_groupcDepSubCommand.tmp=
@@ -43,7 +43,7 @@ vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_flash_rx/src/r
 	@echo 'Finished Scanning and building: $<'
 	@echo.
 
-vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_flash_rx/src/r_flash_rx.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_flash_rx/src/r_flash_rx.c 
+vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_flash_rx/src/r_flash_rx.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_flash_rx/src/r_flash_rx.c vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_flash_rx/src/r_flash_rx.sub
 	@echo 'Scanning and building file: $<'
 	@echo 'Invoking: Scanner and Compiler'
 	@echo vendors\renesas\boards\rx72n-envision-kit\aws_tests\src\smc_gen\r_flash_rx\src\r_flash_rxcDepSubCommand.tmp=

@@ -19,7 +19,7 @@ vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_pincfg/r_ether
 vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_pincfg/r_sci_rx_pinset.d 
 
 # Each subdirectory must supply rules for building sources it contributes
-vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_pincfg/Pin.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_pincfg/Pin.c 
+vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_pincfg/Pin.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_pincfg/Pin.c vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_pincfg/Pin.sub
 	@echo 'Scanning and building file: $<'
 	@echo 'Invoking: Scanner and Compiler'
 	@echo vendors\renesas\boards\rx72n-envision-kit\aws_tests\src\smc_gen\r_pincfg\PincDepSubCommand.tmp=
@@ -31,7 +31,7 @@ vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_pincfg/Pin.obj
 	@echo 'Finished Scanning and building: $<'
 	@echo.
 
-vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_pincfg/r_ether_rx_pinset.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_pincfg/r_ether_rx_pinset.c 
+vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_pincfg/r_ether_rx_pinset.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_pincfg/r_ether_rx_pinset.c vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_pincfg/r_ether_rx_pinset.sub
 	@echo 'Scanning and building file: $<'
 	@echo 'Invoking: Scanner and Compiler'
 	@echo vendors\renesas\boards\rx72n-envision-kit\aws_tests\src\smc_gen\r_pincfg\r_ether_rx_pinsetcDepSubCommand.tmp=
@@ -43,7 +43,7 @@ vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_pincfg/r_ether
 	@echo 'Finished Scanning and building: $<'
 	@echo.
 
-vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_pincfg/r_sci_rx_pinset.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_pincfg/r_sci_rx_pinset.c 
+vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_pincfg/r_sci_rx_pinset.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_pincfg/r_sci_rx_pinset.c vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_pincfg/r_sci_rx_pinset.sub
 	@echo 'Scanning and building file: $<'
 	@echo 'Invoking: Scanner and Compiler'
 	@echo vendors\renesas\boards\rx72n-envision-kit\aws_tests\src\smc_gen\r_pincfg\r_sci_rx_pinsetcDepSubCommand.tmp=

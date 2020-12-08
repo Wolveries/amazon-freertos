@@ -13,7 +13,7 @@ C_DEPS += \
 freertos_kernel/portable/MemMang/heap_4.d 
 
 # Each subdirectory must supply rules for building sources it contributes
-freertos_kernel/portable/MemMang/heap_4.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/freertos_kernel/portable/MemMang/heap_4.c 
+freertos_kernel/portable/MemMang/heap_4.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/freertos_kernel/portable/MemMang/heap_4.c freertos_kernel/portable/MemMang/heap_4.sub
 	@echo 'Scanning and building file: $<'
 	@echo 'Invoking: Scanner and Compiler'
 	@echo freertos_kernel\portable\MemMang\heap_4cDepSubCommand.tmp=

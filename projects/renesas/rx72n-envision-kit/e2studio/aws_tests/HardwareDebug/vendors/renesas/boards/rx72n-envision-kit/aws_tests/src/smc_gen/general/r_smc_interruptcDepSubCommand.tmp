@@ -75,7 +75,7 @@
 -include="C:\Renesas\Workspace\rx72n\amazon-freertos\projects\renesas\rx72n-envision-kit\e2studio\aws_tests\..\..\..\..\..\vendors\renesas\boards\rx72n-envision-kit\aws_tests\src\smc_gen\general"
 -include="C:\Renesas\Workspace\rx72n\amazon-freertos\projects\renesas\rx72n-envision-kit\e2studio\aws_tests\..\..\..\..\..\vendors\renesas\boards\rx72n-envision-kit\aws_tests\src\smc_gen\r_pincfg" 
 -preinclude="C:\Renesas\Workspace\rx72n\amazon-freertos\vendors\renesas\amazon_freertos_common\compiler_support\ccrx\implicitlyinclude.h" 
--define=_COMPLEX,__RX=1,__RENESAS__,__LITTLE_ENDIAN__,MBEDTLS_CONFIG_FILE="<aws_mbedtls_config.h>",CONFIG_MEDTLS_USE_AFR_MEMORY,UNITY_INCLUDE_CONFIG_H,FREERTOS_ENABLE_UNIT_TESTS,__FUNCTION__=__func__
+-define=_COMPLEX,__RX=1,__RENESAS__,__LITTLE_ENDIAN__,MBEDTLS_CONFIG_FILE="<aws_mbedtls_config.h>",CONFIG_MEDTLS_USE_AFR_MEMORY,FREERTOS_ENABLE_UNIT_TESTS,__FUNCTION__=__func__
 -asmopt=-bank
 -lang=c99
 -utf8

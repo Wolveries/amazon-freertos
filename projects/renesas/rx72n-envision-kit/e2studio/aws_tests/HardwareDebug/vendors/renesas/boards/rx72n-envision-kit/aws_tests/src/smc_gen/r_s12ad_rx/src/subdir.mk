@@ -13,7 +13,7 @@ C_DEPS += \
 vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_s12ad_rx/src/r_s12ad_rx.d 
 
 # Each subdirectory must supply rules for building sources it contributes
-vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_s12ad_rx/src/r_s12ad_rx.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_s12ad_rx/src/r_s12ad_rx.c 
+vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_s12ad_rx/src/r_s12ad_rx.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_s12ad_rx/src/r_s12ad_rx.c vendors/renesas/boards/rx72n-envision-kit/aws_tests/src/smc_gen/r_s12ad_rx/src/r_s12ad_rx.sub
 	@echo 'Scanning and building file: $<'
 	@echo 'Invoking: Scanner and Compiler'
 	@echo vendors\renesas\boards\rx72n-envision-kit\aws_tests\src\smc_gen\r_s12ad_rx\src\r_s12ad_rxcDepSubCommand.tmp=

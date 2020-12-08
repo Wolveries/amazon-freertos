@@ -37,7 +37,7 @@ libraries/freertos_plus/standard/freertos_plus_tcp/FreeRTOS_TCP_WIN.d \
 libraries/freertos_plus/standard/freertos_plus_tcp/FreeRTOS_UDP_IP.d 
 
 # Each subdirectory must supply rules for building sources it contributes
-libraries/freertos_plus/standard/freertos_plus_tcp/FreeRTOS_ARP.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/libraries/freertos_plus/standard/freertos_plus_tcp/FreeRTOS_ARP.c 
+libraries/freertos_plus/standard/freertos_plus_tcp/FreeRTOS_ARP.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/libraries/freertos_plus/standard/freertos_plus_tcp/FreeRTOS_ARP.c libraries/freertos_plus/standard/freertos_plus_tcp/FreeRTOS_ARP.sub
 	@echo 'Scanning and building file: $<'
 	@echo 'Invoking: Scanner and Compiler'
 	@echo libraries\freertos_plus\standard\freertos_plus_tcp\FreeRTOS_ARPcDepSubCommand.tmp=
@@ -49,7 +49,7 @@ libraries/freertos_plus/standard/freertos_plus_tcp/FreeRTOS_ARP.obj: C:/Renesas/
 	@echo 'Finished Scanning and building: $<'
 	@echo.
 
-libraries/freertos_plus/standard/freertos_plus_tcp/FreeRTOS_DHCP.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/libraries/freertos_plus/standard/freertos_plus_tcp/FreeRTOS_DHCP.c 
+libraries/freertos_plus/standard/freertos_plus_tcp/FreeRTOS_DHCP.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/libraries/freertos_plus/standard/freertos_plus_tcp/FreeRTOS_DHCP.c libraries/freertos_plus/standard/freertos_plus_tcp/FreeRTOS_DHCP.sub
 	@echo 'Scanning and building file: $<'
 	@echo 'Invoking: Scanner and Compiler'
 	@echo libraries\freertos_plus\standard\freertos_plus_tcp\FreeRTOS_DHCPcDepSubCommand.tmp=
@@ -61,7 +61,7 @@ libraries/freertos_plus/standard/freertos_plus_tcp/FreeRTOS_DHCP.obj: C:/Renesas
 	@echo 'Finished Scanning and building: $<'
 	@echo.
 
-libraries/freertos_plus/standard/freertos_plus_tcp/FreeRTOS_DNS.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/libraries/freertos_plus/standard/freertos_plus_tcp/FreeRTOS_DNS.c 
+libraries/freertos_plus/standard/freertos_plus_tcp/FreeRTOS_DNS.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/libraries/freertos_plus/standard/freertos_plus_tcp/FreeRTOS_DNS.c libraries/freertos_plus/standard/freertos_plus_tcp/FreeRTOS_DNS.sub
 	@echo 'Scanning and building file: $<'
 	@echo 'Invoking: Scanner and Compiler'
 	@echo libraries\freertos_plus\standard\freertos_plus_tcp\FreeRTOS_DNScDepSubCommand.tmp=
@@ -73,7 +73,7 @@ libraries/freertos_plus/standard/freertos_plus_tcp/FreeRTOS_DNS.obj: C:/Renesas/
 	@echo 'Finished Scanning and building: $<'
 	@echo.
 
-libraries/freertos_plus/standard/freertos_plus_tcp/FreeRTOS_IP.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/libraries/freertos_plus/standard/freertos_plus_tcp/FreeRTOS_IP.c 
+libraries/freertos_plus/standard/freertos_plus_tcp/FreeRTOS_IP.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/libraries/freertos_plus/standard/freertos_plus_tcp/FreeRTOS_IP.c libraries/freertos_plus/standard/freertos_plus_tcp/FreeRTOS_IP.sub
 	@echo 'Scanning and building file: $<'
 	@echo 'Invoking: Scanner and Compiler'
 	@echo libraries\freertos_plus\standard\freertos_plus_tcp\FreeRTOS_IPcDepSubCommand.tmp=
@@ -85,7 +85,7 @@ libraries/freertos_plus/standard/freertos_plus_tcp/FreeRTOS_IP.obj: C:/Renesas/W
 	@echo 'Finished Scanning and building: $<'
 	@echo.
 
-libraries/freertos_plus/standard/freertos_plus_tcp/FreeRTOS_Sockets.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/libraries/freertos_plus/standard/freertos_plus_tcp/FreeRTOS_Sockets.c 
+libraries/freertos_plus/standard/freertos_plus_tcp/FreeRTOS_Sockets.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/libraries/freertos_plus/standard/freertos_plus_tcp/FreeRTOS_Sockets.c libraries/freertos_plus/standard/freertos_plus_tcp/FreeRTOS_Sockets.sub
 	@echo 'Scanning and building file: $<'
 	@echo 'Invoking: Scanner and Compiler'
 	@echo libraries\freertos_plus\standard\freertos_plus_tcp\FreeRTOS_SocketscDepSubCommand.tmp=
@@ -97,7 +97,7 @@ libraries/freertos_plus/standard/freertos_plus_tcp/FreeRTOS_Sockets.obj: C:/Rene
 	@echo 'Finished Scanning and building: $<'
 	@echo.
 
-libraries/freertos_plus/standard/freertos_plus_tcp/FreeRTOS_Stream_Buffer.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/libraries/freertos_plus/standard/freertos_plus_tcp/FreeRTOS_Stream_Buffer.c 
+libraries/freertos_plus/standard/freertos_plus_tcp/FreeRTOS_Stream_Buffer.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/libraries/freertos_plus/standard/freertos_plus_tcp/FreeRTOS_Stream_Buffer.c libraries/freertos_plus/standard/freertos_plus_tcp/FreeRTOS_Stream_Buffer.sub
 	@echo 'Scanning and building file: $<'
 	@echo 'Invoking: Scanner and Compiler'
 	@echo libraries\freertos_plus\standard\freertos_plus_tcp\FreeRTOS_Stream_BuffercDepSubCommand.tmp=
@@ -109,7 +109,7 @@ libraries/freertos_plus/standard/freertos_plus_tcp/FreeRTOS_Stream_Buffer.obj: C
 	@echo 'Finished Scanning and building: $<'
 	@echo.
 
-libraries/freertos_plus/standard/freertos_plus_tcp/FreeRTOS_TCP_IP.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/libraries/freertos_plus/standard/freertos_plus_tcp/FreeRTOS_TCP_IP.c 
+libraries/freertos_plus/standard/freertos_plus_tcp/FreeRTOS_TCP_IP.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/libraries/freertos_plus/standard/freertos_plus_tcp/FreeRTOS_TCP_IP.c libraries/freertos_plus/standard/freertos_plus_tcp/FreeRTOS_TCP_IP.sub
 	@echo 'Scanning and building file: $<'
 	@echo 'Invoking: Scanner and Compiler'
 	@echo libraries\freertos_plus\standard\freertos_plus_tcp\FreeRTOS_TCP_IPcDepSubCommand.tmp=
@@ -121,7 +121,7 @@ libraries/freertos_plus/standard/freertos_plus_tcp/FreeRTOS_TCP_IP.obj: C:/Renes
 	@echo 'Finished Scanning and building: $<'
 	@echo.
 
-libraries/freertos_plus/standard/freertos_plus_tcp/FreeRTOS_TCP_WIN.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/libraries/freertos_plus/standard/freertos_plus_tcp/FreeRTOS_TCP_WIN.c 
+libraries/freertos_plus/standard/freertos_plus_tcp/FreeRTOS_TCP_WIN.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/libraries/freertos_plus/standard/freertos_plus_tcp/FreeRTOS_TCP_WIN.c libraries/freertos_plus/standard/freertos_plus_tcp/FreeRTOS_TCP_WIN.sub
 	@echo 'Scanning and building file: $<'
 	@echo 'Invoking: Scanner and Compiler'
 	@echo libraries\freertos_plus\standard\freertos_plus_tcp\FreeRTOS_TCP_WINcDepSubCommand.tmp=
@@ -133,7 +133,7 @@ libraries/freertos_plus/standard/freertos_plus_tcp/FreeRTOS_TCP_WIN.obj: C:/Rene
 	@echo 'Finished Scanning and building: $<'
 	@echo.
 
-libraries/freertos_plus/standard/freertos_plus_tcp/FreeRTOS_UDP_IP.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/libraries/freertos_plus/standard/freertos_plus_tcp/FreeRTOS_UDP_IP.c 
+libraries/freertos_plus/standard/freertos_plus_tcp/FreeRTOS_UDP_IP.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/libraries/freertos_plus/standard/freertos_plus_tcp/FreeRTOS_UDP_IP.c libraries/freertos_plus/standard/freertos_plus_tcp/FreeRTOS_UDP_IP.sub
 	@echo 'Scanning and building file: $<'
 	@echo 'Invoking: Scanner and Compiler'
 	@echo libraries\freertos_plus\standard\freertos_plus_tcp\FreeRTOS_UDP_IPcDepSubCommand.tmp=

@@ -16,7 +16,7 @@ libraries/freertos_plus/standard/freertos_plus_tcp/portable/NetworkInterface/RX/
 libraries/freertos_plus/standard/freertos_plus_tcp/portable/NetworkInterface/RX/ether_callback.d 
 
 # Each subdirectory must supply rules for building sources it contributes
-libraries/freertos_plus/standard/freertos_plus_tcp/portable/NetworkInterface/RX/NetworkInterface.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/libraries/freertos_plus/standard/freertos_plus_tcp/portable/NetworkInterface/RX/NetworkInterface.c 
+libraries/freertos_plus/standard/freertos_plus_tcp/portable/NetworkInterface/RX/NetworkInterface.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/libraries/freertos_plus/standard/freertos_plus_tcp/portable/NetworkInterface/RX/NetworkInterface.c libraries/freertos_plus/standard/freertos_plus_tcp/portable/NetworkInterface/RX/NetworkInterface.sub
 	@echo 'Scanning and building file: $<'
 	@echo 'Invoking: Scanner and Compiler'
 	@echo libraries\freertos_plus\standard\freertos_plus_tcp\portable\NetworkInterface\RX\NetworkInterfacecDepSubCommand.tmp=
@@ -28,7 +28,7 @@ libraries/freertos_plus/standard/freertos_plus_tcp/portable/NetworkInterface/RX/
 	@echo 'Finished Scanning and building: $<'
 	@echo.
 
-libraries/freertos_plus/standard/freertos_plus_tcp/portable/NetworkInterface/RX/ether_callback.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/libraries/freertos_plus/standard/freertos_plus_tcp/portable/NetworkInterface/RX/ether_callback.c 
+libraries/freertos_plus/standard/freertos_plus_tcp/portable/NetworkInterface/RX/ether_callback.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/libraries/freertos_plus/standard/freertos_plus_tcp/portable/NetworkInterface/RX/ether_callback.c libraries/freertos_plus/standard/freertos_plus_tcp/portable/NetworkInterface/RX/ether_callback.sub
 	@echo 'Scanning and building file: $<'
 	@echo 'Invoking: Scanner and Compiler'
 	@echo libraries\freertos_plus\standard\freertos_plus_tcp\portable\NetworkInterface\RX\ether_callbackcDepSubCommand.tmp=

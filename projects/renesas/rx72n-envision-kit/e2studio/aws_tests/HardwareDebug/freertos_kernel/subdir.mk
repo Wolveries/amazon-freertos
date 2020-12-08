@@ -28,7 +28,7 @@ freertos_kernel/tasks.d \
 freertos_kernel/timers.d 
 
 # Each subdirectory must supply rules for building sources it contributes
-freertos_kernel/event_groups.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/freertos_kernel/event_groups.c 
+freertos_kernel/event_groups.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/freertos_kernel/event_groups.c freertos_kernel/event_groups.sub
 	@echo 'Scanning and building file: $<'
 	@echo 'Invoking: Scanner and Compiler'
 	@echo freertos_kernel\event_groupscDepSubCommand.tmp=
@@ -40,7 +40,7 @@ freertos_kernel/event_groups.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/fre
 	@echo 'Finished Scanning and building: $<'
 	@echo.
 
-freertos_kernel/list.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/freertos_kernel/list.c 
+freertos_kernel/list.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/freertos_kernel/list.c freertos_kernel/list.sub
 	@echo 'Scanning and building file: $<'
 	@echo 'Invoking: Scanner and Compiler'
 	@echo freertos_kernel\listcDepSubCommand.tmp=
@@ -52,7 +52,7 @@ freertos_kernel/list.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/freertos_ke
 	@echo 'Finished Scanning and building: $<'
 	@echo.
 
-freertos_kernel/queue.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/freertos_kernel/queue.c 
+freertos_kernel/queue.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/freertos_kernel/queue.c freertos_kernel/queue.sub
 	@echo 'Scanning and building file: $<'
 	@echo 'Invoking: Scanner and Compiler'
 	@echo freertos_kernel\queuecDepSubCommand.tmp=
@@ -64,7 +64,7 @@ freertos_kernel/queue.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/freertos_k
 	@echo 'Finished Scanning and building: $<'
 	@echo.
 
-freertos_kernel/stream_buffer.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/freertos_kernel/stream_buffer.c 
+freertos_kernel/stream_buffer.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/freertos_kernel/stream_buffer.c freertos_kernel/stream_buffer.sub
 	@echo 'Scanning and building file: $<'
 	@echo 'Invoking: Scanner and Compiler'
 	@echo freertos_kernel\stream_buffercDepSubCommand.tmp=
@@ -76,7 +76,7 @@ freertos_kernel/stream_buffer.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/fr
 	@echo 'Finished Scanning and building: $<'
 	@echo.
 
-freertos_kernel/tasks.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/freertos_kernel/tasks.c 
+freertos_kernel/tasks.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/freertos_kernel/tasks.c freertos_kernel/tasks.sub
 	@echo 'Scanning and building file: $<'
 	@echo 'Invoking: Scanner and Compiler'
 	@echo freertos_kernel\taskscDepSubCommand.tmp=
@@ -88,7 +88,7 @@ freertos_kernel/tasks.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/freertos_k
 	@echo 'Finished Scanning and building: $<'
 	@echo.
 
-freertos_kernel/timers.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/freertos_kernel/timers.c 
+freertos_kernel/timers.obj: C:/Renesas/Workspace/rx72n/amazon-freertos/freertos_kernel/timers.c freertos_kernel/timers.sub
 	@echo 'Scanning and building file: $<'
 	@echo 'Invoking: Scanner and Compiler'
 	@echo freertos_kernel\timerscDepSubCommand.tmp=
