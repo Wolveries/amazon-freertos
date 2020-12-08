@@ -147,10 +147,10 @@ void R_Pins_Create(void)
     // PORT1.PMR.BIT.B3 = 1U; // Please set the PMR bit after TE bit is set to 1.
 
     /* Set TXD7 pin */
-    PORT5.PODR.BYTE |= 0x20U;
-    MPC.P55PFS.BYTE = 0x0AU;
-    PORT5.PDR.BYTE |= 0x20U;
-    // PORT5.PMR.BIT.B5 = 1U; // Please set the PMR bit after TE bit is set to 1.
+    PORT9.PODR.BYTE |= 0x01U;
+    MPC.P90PFS.BYTE = 0x0AU;
+    PORT9.PDR.BYTE |= 0x01U;
+    // PORT9.PMR.BIT.B0 = 1U; // Please set the PMR bit after TE bit is set to 1.
 
     R_BSP_RegisterProtectEnable(BSP_REG_PROTECT_MPC);
 }   

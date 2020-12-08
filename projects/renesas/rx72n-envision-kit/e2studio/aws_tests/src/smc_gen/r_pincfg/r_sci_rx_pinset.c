@@ -71,8 +71,8 @@ void R_SCI_PinSet_SCI7()
     PORT9.PMR.BIT.B2 = 1U;
 
     /* Set TXD7/SMOSI7 pin */
-    MPC.P55PFS.BYTE = 0x0AU;
-    PORT5.PMR.BIT.B5 = 1U;
+    MPC.P90PFS.BYTE = 0x0AU;
+    PORT9.PMR.BIT.B0 = 1U;
 
     R_BSP_RegisterProtectEnable(BSP_REG_PROTECT_MPC);
 }

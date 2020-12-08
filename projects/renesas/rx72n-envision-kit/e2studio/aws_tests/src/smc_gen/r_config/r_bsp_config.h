@@ -119,7 +119,7 @@ NOTE: The RAM areas are not contiguous.It is separated by 512 KB each.
  * NOTE: This setting is available only when using CCRX and GNUC.
  *       This is invalid when using Renesas RTOS with CCRX.
  */
-#define BSP_CFG_USER_STACK_ENABLE       (1)
+#define BSP_CFG_USER_STACK_ENABLE       (0)
 
 /* If only 1 stack is chosen using BSP_CFG_USER_STACK_ENABLE then no RAM will be allocated for the user stack. */
 #if BSP_CFG_USER_STACK_ENABLE == 1
@@ -131,7 +131,7 @@ NOTE: The RAM areas are not contiguous.It is separated by 512 KB each.
 
 /* Interrupt Stack size in bytes.
  * NOTE: This setting is available only when using CCRX and GNUC. */
-#define BSP_CFG_ISTACK_BYTES            (0x400)
+#define BSP_CFG_ISTACK_BYTES            (0x1000)
 
 /* Heap size in bytes.
    To disable the heap you must follow these steps:
@@ -141,7 +141,7 @@ NOTE: The RAM areas are not contiguous.It is separated by 512 KB each.
       settings and choosing the Standard Library section. After that choose 'Contents' in e2 studio.
       This will present a list of modules that can be included. Uncheck the box for stdio.h.
    NOTE: This setting is available only when using CCRX and GNUC. */
-#define BSP_CFG_HEAP_BYTES              (0x400)
+#define BSP_CFG_HEAP_BYTES              (0x1000)
 
 /* Initializes C input & output library functions.
    0 = Disable I/O library initialization in resetprg.c. If you are not using stdio then use this value.
@@ -291,7 +291,7 @@ NOTE: The RAM areas are not contiguous.It is separated by 512 KB each.
 /* PLL Frequency Multiplication Factor Select (STC).
    Available multipliers = x10.0 to x30.0 in 0.5 increments (e.g. 10.0, 10.5, 11.0, 11.5, ..., 29.0, 29.5, 30.0)
 */
-#define BSP_CFG_PLL_MUL                 (10.0) /* Generated value. Do not edit this manually */
+#define BSP_CFG_PLL_MUL                 (15.0) /* Generated value. Do not edit this manually */
 
 /* System Clock Divider (ICK).
    Available divisors = /1 (no division), /2, /4, /8, /16, /32, /64
@@ -591,7 +591,7 @@ NOTE: The RAM areas are not contiguous.It is separated by 512 KB each.
          Default setting of the bank mode is linear mode.
          If the dual bank function has not been incorporated in a device, this macro should be 1.
 */
-#define BSP_CFG_CODE_FLASH_BANK_MODE    (1)
+#define BSP_CFG_CODE_FLASH_BANK_MODE    (0)
 
 /* Select the startup bank of the program when dual bank function is in dual mode.
    0 = The address range of bank 1 from FFC00000h to FFDFFFFFh and bank 0 from FFE00000h to FFFFFFFFh. (default)
