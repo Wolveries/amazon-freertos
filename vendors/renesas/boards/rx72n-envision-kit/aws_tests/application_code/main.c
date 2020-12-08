@@ -143,18 +143,18 @@ void vApplicationDaemonTaskStartupHook( void )
         /* Initialise the RTOS's TCP/IP stack.  The tasks that use the network
         are created in the vApplicationIPNetworkEventHook() hook function
         below.  The hook function is called when the network connects. */
-//        FreeRTOS_IPInit( ucIPAddress,
-//                         ucNetMask,
-//                         ucGatewayAddress,
-//                         ucDNSServerAddress,
-//                         ucMACAddress );
+        FreeRTOS_IPInit( ucIPAddress,
+                         ucNetMask,
+                         ucGatewayAddress,
+                         ucDNSServerAddress,
+                         ucMACAddress );
 
         /* We should wait for the network to be up before we run any tests. */
-//        while( FreeRTOS_IsNetworkUp() == pdFALSE )
-//        {
-//            vTaskDelay(300);
-//        }
-//        FreeRTOS_printf( ( "The network is up and running\n" ) );
+        while( FreeRTOS_IsNetworkUp() == pdFALSE )
+        {
+            vTaskDelay(300);
+        }
+        FreeRTOS_printf( ( "The network is up and running\n" ) );
 
         /* Provision the device with AWS certificate and private key. */
 //        vDevModeKeyProvisioning();
