@@ -58,10 +58,10 @@
     #define ETHER_CFG_CH1_PHY_ADDRESS                   (1)     /* Please define the PHY-LSI address in the range of 0-31. */
 
 /* The number of Rx descriptors. */
-    #define ETHER_CFG_EMAC_RX_DESCRIPTORS               (1)
+    #define ETHER_CFG_EMAC_RX_DESCRIPTORS               (4)
 
 /* The number of Tx descriptors. */
-    #define ETHER_CFG_EMAC_TX_DESCRIPTORS               (1)
+    #define ETHER_CFG_EMAC_TX_DESCRIPTORS               (4)
 
 /* Please define the size of the sending and receiving buffer in the value where one frame can surely be stored 
  because the driver is single-frame/single-buffer processing.  */
@@ -84,7 +84,7 @@
  Please set the value 0 ETHER_CFG_CH0_PHY_ACCESS and ETHER_CFG_CH1_PHY_ACCESS when use default setting of the RSK+RX72M.
  Please set the value 1 ETHER_CFG_CH1_PHY_ACCESS when use default setting of the RSK+RX72N.
  */
-    #define ETHER_CFG_CH0_PHY_ACCESS                    (1)
+    #define ETHER_CFG_CH0_PHY_ACCESS                    (0)
     #define ETHER_CFG_CH1_PHY_ACCESS                    (1)
 
 /* Define the access timing of MII/RMII register */
@@ -102,13 +102,13 @@
  0 = unused  (use PHY-LSI status register)
  1 = use     (use LINKSTA signal)
  */
-    #define ETHER_CFG_USE_LINKSTA                       (1)     /* This setting is reflected in all channels */
+    #define ETHER_CFG_USE_LINKSTA                       (0)     /* This setting is reflected in all channels */
 
 /* Definition of whether or not to use KSZ8041NL of the Micrel Inc.
  0 = unused
  1 = use
  */
-    #define ETHER_CFG_USE_PHY_KSZ8041NL                 (0)
+    #define ETHER_CFG_USE_PHY_KSZ8041NL                 (1)
 
 /* Definition of whether or not to use non blocking of PHY Management Station Operation
  0 = unused
