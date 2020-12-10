@@ -14,69 +14,113 @@
 * following link:
 * http://www.renesas.com/disclaimer
 *
-* Copyright (C) 2019 Renesas Electronics Corporation. All rights reserved.
+* Copyright (C) 2020 Renesas Electronics Corporation. All rights reserved.
 ***********************************************************************************************************************/
-
 /***********************************************************************************************************************
-* File Name    : r_cg_macrodriver.h
-* Version      : 1.0.101
+* File Name    : r_ether_rx_pinset.c
+* Version      : 1.0.2
 * Device(s)    : R5F572NNHxFB
-* Description  : Macro header file for code generation.
+* Tool-Chain   : RXC toolchain
+* Description  : Setting of port and mpc registers
 * Creation Date: 2020-12-10
 ***********************************************************************************************************************/
-
-#ifndef MACRODRIVER_H
-#define MACRODRIVER_H
 
 /***********************************************************************************************************************
 Includes
 ***********************************************************************************************************************/
+#include "r_ether_rx_pinset.h"
 #include "platform.h"
-#include "r_smc_interrupt.h"
-#include <machine.h>
 
 /***********************************************************************************************************************
-Macro definitions (Register bit)
+Global variables and functions
 ***********************************************************************************************************************/
 
 /***********************************************************************************************************************
-Macro definitions
+* Function Name: R_ETHER_PinSet_ETHERC0_MII
+* Description  : This function initializes pins for r_ether_rx module
+* Arguments    : none
+* Return Value : none
 ***********************************************************************************************************************/
-#ifndef __TYPEDEF__
+void R_ETHER_PinSet_ETHERC0_MII()
+{
+    R_BSP_RegisterProtectDisable(BSP_REG_PROTECT_MPC);
 
-/* Status list definition */
-#define MD_STATUSBASE        (0x00U)
-#define MD_OK                (MD_STATUSBASE + 0x00U) /* register setting OK */
-#define MD_SPT               (MD_STATUSBASE + 0x01U) /* IIC stop */
-#define MD_NACK              (MD_STATUSBASE + 0x02U) /* IIC no ACK */
-#define MD_BUSY1             (MD_STATUSBASE + 0x03U) /* busy 1 */
-#define MD_BUSY2             (MD_STATUSBASE + 0x04U) /* busy 2 */
+    /* Set CLKOUT25M pin */
+    MPC.P56PFS.BYTE = 0x2AU;
+    PORT5.PMR.BIT.B6 = 1U;
 
-/* Error list definition */
-#define MD_ERRORBASE         (0x80U)
-#define MD_ERROR             (MD_ERRORBASE + 0x00U)  /* error */
-#define MD_ARGERROR          (MD_ERRORBASE + 0x01U)  /* error argument input error */
-#define MD_ERROR1            (MD_ERRORBASE + 0x02U)  /* error 1 */
-#define MD_ERROR2            (MD_ERRORBASE + 0x03U)  /* error 2 */
-#define MD_ERROR3            (MD_ERRORBASE + 0x04U)  /* error 3 */
-#define MD_ERROR4            (MD_ERRORBASE + 0x05U)  /* error 4 */
-#define MD_ERROR5            (MD_ERRORBASE + 0x06U)  /* error 5 */
+    /* Set ET0_TX_CLK pin */
+    MPC.PC4PFS.BYTE = 0x11U;
+    PORTC.PMR.BIT.B4 = 1U;
 
-#endif
+    /* Set ET0_RX_CLK pin */
+    MPC.P76PFS.BYTE = 0x11U;
+    PORT7.PMR.BIT.B6 = 1U;
 
-/***********************************************************************************************************************
-Typedef definitions
-***********************************************************************************************************************/
-#ifndef __TYPEDEF__
-    typedef unsigned short      MD_STATUS;
-    #define __TYPEDEF__
-#endif
+    /* Set ET0_TX_EN pin */
+    MPC.P80PFS.BYTE = 0x11U;
+    PORT8.PMR.BIT.B0 = 1U;
 
-/***********************************************************************************************************************
-Global functions
-***********************************************************************************************************************/
-void R_Systeminit(void);
-/* Start user code for function. Do not edit comment generated here */
-/* End user code. Do not edit comment generated here */
-#endif
+    /* Set ET0_ETXD3 pin */
+    MPC.PC6PFS.BYTE = 0x11U;
+    PORTC.PMR.BIT.B6 = 1U;
+
+    /* Set ET0_ETXD2 pin */
+    MPC.PC5PFS.BYTE = 0x11U;
+    PORTC.PMR.BIT.B5 = 1U;
+
+    /* Set ET0_ETXD1 pin */
+    MPC.P82PFS.BYTE = 0x11U;
+    PORT8.PMR.BIT.B2 = 1U;
+
+    /* Set ET0_ETXD0 pin */
+    MPC.P81PFS.BYTE = 0x11U;
+    PORT8.PMR.BIT.B1 = 1U;
+
+    /* Set ET0_TX_ER pin */
+    MPC.PC3PFS.BYTE = 0x11U;
+    PORTC.PMR.BIT.B3 = 1U;
+
+    /* Set ET0_RX_DV pin */
+    MPC.PC2PFS.BYTE = 0x11U;
+    PORTC.PMR.BIT.B2 = 1U;
+
+    /* Set ET0_ERXD3 pin */
+    MPC.PC0PFS.BYTE = 0x11U;
+    PORTC.PMR.BIT.B0 = 1U;
+
+    /* Set ET0_ERXD2 pin */
+    MPC.PC1PFS.BYTE = 0x11U;
+    PORTC.PMR.BIT.B1 = 1U;
+
+    /* Set ET0_ERXD1 pin */
+    MPC.P74PFS.BYTE = 0x11U;
+    PORT7.PMR.BIT.B4 = 1U;
+
+    /* Set ET0_ERXD0 pin */
+    MPC.P75PFS.BYTE = 0x11U;
+    PORT7.PMR.BIT.B5 = 1U;
+
+    /* Set ET0_RX_ER pin */
+    MPC.P77PFS.BYTE = 0x11U;
+    PORT7.PMR.BIT.B7 = 1U;
+
+    /* Set ET0_CRS pin */
+    MPC.P83PFS.BYTE = 0x11U;
+    PORT8.PMR.BIT.B3 = 1U;
+
+    /* Set ET0_COL pin */
+    MPC.PC7PFS.BYTE = 0x11U;
+    PORTC.PMR.BIT.B7 = 1U;
+
+    /* Set ET0_MDC pin */
+    MPC.P72PFS.BYTE = 0x11U;
+    PORT7.PMR.BIT.B2 = 1U;
+
+    /* Set ET0_MDIO pin */
+    MPC.P71PFS.BYTE = 0x11U;
+    PORT7.PMR.BIT.B1 = 1U;
+
+    R_BSP_RegisterProtectEnable(BSP_REG_PROTECT_MPC);
+}
 

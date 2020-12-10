@@ -301,22 +301,22 @@ NOTE: The RAM areas are not contiguous.It is separated by 512 KB each.
 /* Peripheral Module Clock A Divider (PCKA).
    Available divisors = /1 (no division), /2, /4, /8, /16, /32, /64
 */
-#define BSP_CFG_PCKA_DIV                (2) /* Generated value. Do not edit this manually */
+#define BSP_CFG_PCKA_DIV                (16) /* Generated value. Do not edit this manually */
 
 /* Peripheral Module Clock B Divider (PCKB).
    Available divisors = /1 (no division), /2, /4, /8, /16, /32, /64
 */
-#define BSP_CFG_PCKB_DIV                (4) /* Generated value. Do not edit this manually */
+#define BSP_CFG_PCKB_DIV                (16) /* Generated value. Do not edit this manually */
 
 /* Peripheral Module Clock C Divider (PCKC).
    Available divisors = /1 (no division), /2, /4, /8, /16, /32, /64
 */
-#define BSP_CFG_PCKC_DIV                (4) /* Generated value. Do not edit this manually */
+#define BSP_CFG_PCKC_DIV                (16) /* Generated value. Do not edit this manually */
 
 /* Peripheral Module Clock D Divider (PCKD).
    Available divisors = /1 (no division), /2, /4, /8, /16, /32, /64
 */
-#define BSP_CFG_PCKD_DIV                (4) /* Generated value. Do not edit this manually */
+#define BSP_CFG_PCKD_DIV                (16) /* Generated value. Do not edit this manually */
 
 /* External Bus Clock Divider (BCLK).
    Available divisors = /1 (no division), /2, /3, /4, /8, /16, /32, /64
@@ -772,7 +772,7 @@ NOTE: The RAM areas are not contiguous.It is separated by 512 KB each.
 
 /* This macro is used to select which SCI bit-rate.
  */
-#define MY_BSP_CFG_SERIAL_TERM_SCI_BITRATE          (912600) //(115200)
+#define MY_BSP_CFG_SERIAL_TERM_SCI_BITRATE          (115200) //(115200)
 #define MY_BSP_CFG_AFR_TERM_SCI_BITRATE             (912600)
 
 /* This macro is used to select which SCI interrupt priority.

@@ -100,30 +100,30 @@
         <Item current="comboBox1-4" error="false" id="fclkdivider.comboBox"/>
         <Item current="true" id="pclkcdivider.isSelected"/>
         <Item current="240.0 MHz" id="pclkcdivider.InputValue"/>
-        <Item current="60.0 MHz" id="pclkcdivider.OutputValue"/>
+        <Item current="15.0 MHz" id="pclkcdivider.OutputValue"/>
         <Item current="sckselector.radiobutton.swtpll" id="pclkcdivider.Condition"/>
-        <Item current="comboBox1-4" error="false" id="pclkcdivider.comboBox"/>
-        <Item current="60.0 MHz" error="false" id="pclkcdivider.PreOutput"/>
+        <Item current="comboBox1-16" error="false" id="pclkcdivider.comboBox"/>
+        <Item current="15.0 MHz" error="false" id="pclkcdivider.PreOutput"/>
         <Item current="pclkbdivider" error="false" id="pclkcdivider.PreOutputController"/>
         <Item current="true" id="pclkddivider.isSelected"/>
         <Item current="240.0 MHz" id="pclkddivider.InputValue"/>
-        <Item current="60.0 MHz" id="pclkddivider.OutputValue"/>
+        <Item current="15.0 MHz" id="pclkddivider.OutputValue"/>
         <Item current="sckselector.radiobutton.swtpll" id="pclkddivider.Condition"/>
-        <Item current="comboBox1-4" error="false" id="pclkddivider.comboBox"/>
-        <Item current="60.0 MHz" error="false" id="pclkddivider.PreOutput"/>
+        <Item current="comboBox1-16" error="false" id="pclkddivider.comboBox"/>
+        <Item current="15.0 MHz" error="false" id="pclkddivider.PreOutput"/>
         <Item current="pclkbdivider" error="false" id="pclkddivider.PreOutputController"/>
         <Item current="true" id="pclkbdivider.isSelected"/>
         <Item current="240.0 MHz" id="pclkbdivider.InputValue"/>
-        <Item current="60.0 MHz" id="pclkbdivider.OutputValue"/>
+        <Item current="15.0 MHz" id="pclkbdivider.OutputValue"/>
         <Item current="sckselector.radiobutton.swtpll" id="pclkbdivider.Condition"/>
-        <Item current="comboBox1-4" error="false" id="pclkbdivider.comboBox"/>
-        <Item current="120.0 MHz" error="false" id="pclkbdivider.PreOutput"/>
+        <Item current="comboBox1-16" error="false" id="pclkbdivider.comboBox"/>
+        <Item current="15.0 MHz" error="false" id="pclkbdivider.PreOutput"/>
         <Item current="pclkadivider" error="false" id="pclkbdivider.PreOutputController"/>
         <Item current="true" id="pclkadivider.isSelected"/>
         <Item current="240.0 MHz" id="pclkadivider.InputValue"/>
-        <Item current="120.0 MHz" id="pclkadivider.OutputValue"/>
+        <Item current="15.0 MHz" id="pclkadivider.OutputValue"/>
         <Item current="sckselector.radiobutton.swtpll" id="pclkadivider.Condition"/>
-        <Item current="comboBox1-2" error="false" id="pclkadivider.comboBox"/>
+        <Item current="comboBox1-16" error="false" id="pclkadivider.comboBox"/>
         <Item current="true" id="uckdivider.selectBox"/>
         <Item current="240.0 MHz" id="uckdivider.InputValue"/>
         <Item current="48.0 MHz" id="uckdivider.OutputValue"/>
@@ -174,32 +174,32 @@
         <Item current="240.0" id="iclk.CurrentValue"/>
         <Item current="false" id="iclk.Disabled"/>
         <Item current="true" id="pclka.isSelected"/>
-        <Item current="120.0 MHz" id="pclka.InputValue"/>
-        <Item current="120.0 MHz" id="pclka.OutputValue"/>
-        <Item current="120.0" id="pclka.frequencyTxt"/>
+        <Item current="15.0 MHz" id="pclka.InputValue"/>
+        <Item current="15.0 MHz" id="pclka.OutputValue"/>
+        <Item current="15.0" id="pclka.frequencyTxt"/>
         <Item current="MHz" id="pclka.unitTxt"/>
-        <Item current="120.0" id="pclka.CurrentValue"/>
+        <Item current="15.0" id="pclka.CurrentValue"/>
         <Item current="false" id="pclka.Disabled"/>
         <Item current="true" id="pclkb.isSelected"/>
-        <Item current="60.0 MHz" id="pclkb.InputValue"/>
-        <Item current="60.0 MHz" id="pclkb.OutputValue"/>
-        <Item current="60.0" id="pclkb.frequencyTxt"/>
+        <Item current="15.0 MHz" id="pclkb.InputValue"/>
+        <Item current="15.0 MHz" id="pclkb.OutputValue"/>
+        <Item current="15.0" id="pclkb.frequencyTxt"/>
         <Item current="MHz" id="pclkb.unitTxt"/>
-        <Item current="60.0" id="pclkb.CurrentValue"/>
+        <Item current="15.0" id="pclkb.CurrentValue"/>
         <Item current="false" id="pclkb.Disabled"/>
         <Item current="true" id="pclkc.isSelected"/>
-        <Item current="60.0 MHz" id="pclkc.InputValue"/>
-        <Item current="60.0 MHz" id="pclkc.OutputValue"/>
-        <Item current="60.0" id="pclkc.frequencyTxt"/>
+        <Item current="15.0 MHz" id="pclkc.InputValue"/>
+        <Item current="15.0 MHz" id="pclkc.OutputValue"/>
+        <Item current="15.0" id="pclkc.frequencyTxt"/>
         <Item current="MHz" id="pclkc.unitTxt"/>
-        <Item current="60.0" id="pclkc.CurrentValue"/>
+        <Item current="15.0" id="pclkc.CurrentValue"/>
         <Item current="false" id="pclkc.Disabled"/>
         <Item current="true" id="pclkd.isSelected"/>
-        <Item current="60.0 MHz" id="pclkd.InputValue"/>
-        <Item current="60.0 MHz" id="pclkd.OutputValue"/>
-        <Item current="60.0" id="pclkd.frequencyTxt"/>
+        <Item current="15.0 MHz" id="pclkd.InputValue"/>
+        <Item current="15.0 MHz" id="pclkd.OutputValue"/>
+        <Item current="15.0" id="pclkd.frequencyTxt"/>
         <Item current="MHz" id="pclkd.unitTxt"/>
-        <Item current="60.0" id="pclkd.CurrentValue"/>
+        <Item current="15.0" id="pclkd.CurrentValue"/>
         <Item current="false" id="pclkd.Disabled"/>
         <Item current="false" id="bckpin.isSelected"/>
         <Item current="" id="bckpin.InputValue"/>

@@ -36,13 +36,13 @@
     </Segment>
     <Segment id="Clock">
         <Setting id="UsbCLK" value="48000.0"/>
-        <Setting id="PCLKD" value="60000.0"/>
+        <Setting id="PCLKD" value="15000.0"/>
         <Setting id="CacMCLK" value="16000.0"/>
-        <Setting id="PCLKB" value="60000.0"/>
+        <Setting id="PCLKB" value="15000.0"/>
         <Setting id="VCC" value="3.3"/>
-        <Setting id="PCLKC" value="60000.0"/>
+        <Setting id="PCLKC" value="15000.0"/>
         <Setting id="BusCLK" value="120000.0"/>
-        <Setting id="PCLKA" value="120000.0"/>
+        <Setting id="PCLKA" value="15000.0"/>
         <Setting id="ICLK" value="240000.0"/>
         <Setting id="FCLK" value="60000.0"/>
         <Setting id="SysCLKSrc" value="4.0"/>

@@ -157,16 +157,16 @@ void vApplicationDaemonTaskStartupHook( void )
         FreeRTOS_printf( ( "The network is up and running\n" ) );
 
         /* Provision the device with AWS certificate and private key. */
-//        vDevModeKeyProvisioning();
+        vDevModeKeyProvisioning();
 
         vTaskDelay(10000);	// todo: this is renesas issue.
         /* Create the task to run tests. */
-//        xTaskCreate( TEST_RUNNER_RunTests_task,
-//                     "RunTests_task",
-//                     mainTEST_RUNNER_TASK_STACK_SIZE,
-//                     NULL,
-//                     tskIDLE_PRIORITY,
-//                     NULL );
+        xTaskCreate( TEST_RUNNER_RunTests_task,
+                     "RunTests_task",
+                     mainTEST_RUNNER_TASK_STACK_SIZE,
+                     NULL,
+                     tskIDLE_PRIORITY,
+                     NULL );
     }
 }
 /*-----------------------------------------------------------*/
