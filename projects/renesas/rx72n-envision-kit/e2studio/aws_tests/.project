@@ -305,6 +305,16 @@
 			<locationURI>AFR_HOME/vendors/renesas/boards/rx72n-envision-kit/aws_tests/application_code/renesas_code/.placeholder</locationURI>
 		</link>
 		<link>
+			<name>application_code/renesas_code/main_task.c</name>
+			<type>1</type>
+			<locationURI>AFR_HOME/vendors/renesas/boards/rx72n-envision-kit/aws_tests/application_code/renesas_code/main_task.c</locationURI>
+		</link>
+		<link>
+			<name>application_code/renesas_code/utility</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
 			<name>application_code/tests/common</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
@@ -548,6 +558,16 @@
 			<name>application_code/demos/dev_mode_key_provisioning/src</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>application_code/renesas_code/utility/r_simple_filesystem_on_dataflash.c</name>
+			<type>1</type>
+			<locationURI>AFR_HOME/vendors/renesas/boards/rx72n-envision-kit/aws_tests/application_code/renesas_code/utility/r_simple_filesystem_on_dataflash.c</locationURI>
+		</link>
+		<link>
+			<name>application_code/renesas_code/utility/r_simple_filesystem_on_dataflash_if.h</name>
+			<type>1</type>
+			<locationURI>AFR_HOME/vendors/renesas/boards/rx72n-envision-kit/aws_tests/application_code/renesas_code/utility/r_simple_filesystem_on_dataflash_if.h</locationURI>
 		</link>
 		<link>
 			<name>application_code/tests/common/aws_test.c</name>
@@ -2695,6 +2715,11 @@
 			<locationURI>AFR_HOME/vendors/renesas/amazon_freertos_common/network_support/onchip_rx_ether/freertos_ip_hook.c</locationURI>
 		</link>
 		<link>
+			<name>vendors/renesas/boards/rx72n-envision-kit/ports/ota</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
 			<name>vendors/renesas/boards/rx72n-envision-kit/ports/pkcs11</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
@@ -2893,6 +2918,11 @@
 			<name>libraries/freertos_plus/standard/freertos_plus_tcp/portable/NetworkInterface/RX</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>vendors/renesas/boards/rx72n-envision-kit/ports/ota/aws_ota_pal.c</name>
+			<type>1</type>
+			<locationURI>AFR_HOME/vendors/renesas/boards/rx72n-envision-kit/ports/ota/aws_ota_pal.c</locationURI>
 		</link>
 		<link>
 			<name>vendors/renesas/boards/rx72n-envision-kit/ports/pkcs11/core_pkcs11_pal.c</name>
