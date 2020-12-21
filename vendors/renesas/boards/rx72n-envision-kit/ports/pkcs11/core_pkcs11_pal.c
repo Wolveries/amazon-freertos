@@ -182,7 +182,7 @@ static void update_dataflash_data_from_image(void);
 static void update_dataflash_data_mirror_from_image(void);
 static void check_dataflash_area(uint32_t retry_counter);
 
-extern CK_RV prvMbedTLS_Initialize( void );
+//extern CK_RV prvMbedTLS_Initialize( void );
 
 void data_flash_update_status_initialize(void);
 static void update_data_flash_callback_function(void *event);
@@ -220,7 +220,7 @@ CK_RV PKCS11_PAL_Initialize( CK_VOID_PTR pvInitArgs )
 
     //R_FLASH_Close();
 
-	xResult = prvMbedTLS_Initialize();
+	//xResult = prvMbedTLS_Initialize();
 
     return xResult;
 }
