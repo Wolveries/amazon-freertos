@@ -470,11 +470,6 @@
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
-			<name>libraries/abstractions/backoff_algorithm</name>
-			<type>2</type>
-			<locationURI>virtual:/virtual</locationURI>
-		</link>
-		<link>
 			<name>libraries/abstractions/pkcs11</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
@@ -771,11 +766,6 @@
 		</link>
 		<link>
 			<name>libraries/3rdparty/unity/src</name>
-			<type>2</type>
-			<locationURI>virtual:/virtual</locationURI>
-		</link>
-		<link>
-			<name>libraries/abstractions/backoff_algorithm/source</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
@@ -1488,16 +1478,6 @@
 			<name>libraries/3rdparty/unity/src/unity_internals.h</name>
 			<type>1</type>
 			<locationURI>AFR_HOME/libraries/3rdparty/unity/src/unity_internals.h</locationURI>
-		</link>
-		<link>
-			<name>libraries/abstractions/backoff_algorithm/source/backoff_algorithm.c</name>
-			<type>1</type>
-			<locationURI>AFR_HOME/libraries/abstractions/backoff_algorithm/source/backoff_algorithm.c</locationURI>
-		</link>
-		<link>
-			<name>libraries/abstractions/backoff_algorithm/source/include</name>
-			<type>2</type>
-			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
 			<name>libraries/abstractions/pkcs11/corePKCS11/source</name>
@@ -2213,11 +2193,6 @@
 			<name>libraries/3rdparty/unity/extras/fixture/src</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
-		</link>
-		<link>
-			<name>libraries/abstractions/backoff_algorithm/source/include/backoff_algorithm.h</name>
-			<type>1</type>
-			<locationURI>AFR_HOME/libraries/abstractions/backoff_algorithm/source/include/backoff_algorithm.h</locationURI>
 		</link>
 		<link>
 			<name>libraries/abstractions/pkcs11/corePKCS11/source/core_pkcs11.c</name>
