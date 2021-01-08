@@ -129,6 +129,7 @@ static void prvMiscInitialization( void )
 {
     /* Initialize UART for serial terminal. */
 	uart_config();
+	configPRINT_STRING("UART starts...\n");
 
     /* Start logging task. */
     xLoggingTaskInitialize( mainLOGGING_TASK_STACK_SIZE,
